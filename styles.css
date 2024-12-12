@@ -1,0 +1,214 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+    color: #fff;
+    min-width: 800px;
+    }
+
+.main-wrapper{
+    height: 100vh;    
+    background-image: 
+        linear-gradient(to bottom, #000000bb,#00000022,#000000bb),
+        url(./images/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header{
+    /* background-color: aqua; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header>*{
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.header .left{
+    align-items: center;
+}
+
+.header .left .logo img{
+    height: 100px;
+    padding-top: 0px;   
+}
+
+.header .navigator a, 
+.header .language a{
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+        padding-right: 10px;
+}
+
+.header .navigator a:hover
+{
+    color: #f72655;
+    text-decoration: underline;
+}
+
+.header .language a:hover {
+    background-color: #0000009c ;
+    color: #fff;
+    border-radius:30px ;
+    height: 30px; width: 120px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.right{
+    padding-right: 20px;
+    align-items: center;
+}
+.login{
+    background-color: #fff ;
+    color: #000;
+    border-radius:30px ;
+    height: 30px; width: 100px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #f72655 ;
+    color: #fff;
+    border-radius:30px ;
+    height: 30px; width: 100px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login a{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main .text{
+    font-size: 6em;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.main .text p{
+    margin: 30px;
+}
+
+.main .button{
+    display: flex;
+    justify-content: center;
+}
+
+.main .button p{
+    background-color: #f72655 ;
+    width: 150px; height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer{
+    font-size: 10px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* header{
+        padding-left: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        display: inline-flex;
+        justify-content: space-between ;
+        margin: auto;
+        width: 100%;
+    }
+
+    .head-nav{
+        display: flex;
+        position: absolute;
+        text-align: bottom;
+        gap: 10px;
+    }
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+
+header a:hover{
+    color: #f72655;
+    text-decoration: underline;
+}
+
+    .main-text{
+    height: 100vh;    
+    background-image: 
+        linear-gradient(to bottom, #000000bb,#00000022,#000000bb),
+        url(./images/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 6em;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+    align-items: center;
+    }
+
+.language{
+    text-align: right;
+}
+
+.login{
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    width: 100px; height: 40px;
+    text-align: center;
+}
+
+    .bottom{
+        display: inline-flex;
+        width: 100%;
+    } */
